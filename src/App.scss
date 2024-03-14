@@ -1,0 +1,94 @@
+html,body,#root{
+  background-color: white;
+}
+.container{
+  background-color: rgb(255, 255, 255);
+  // margin-top: 20px;
+  padding: 30px 30px 30px 30px;
+
+  &-navbar{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    
+  }
+
+  &-topbar{
+    text-align: justify;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    
+    
+    
+
+    &-row{
+      padding: 0px;
+      margin: 0px;
+      border: solid 4pt rgb(210, 210, 210);
+      align-items: center;
+      // margin-right: 0px;
+      
+
+
+      .add-item{
+        // text-align: left;
+        padding: 0px;
+        // cursor: hand;
+        // padding-left: 2rem;
+        
+      }
+
+      // .col{
+      //   color: rgb(210, 210, 210);
+      // }
+
+      .dropdown{
+        // border: solid 2pt red;
+        // width: fit-content;
+        padding: 0px;
+        // padding-right: 2rem;
+        text-align: right;
+        
+        
+      }
+    }
+  }
+
+  &-list{
+    background-color: rgb(210, 210, 210);
+    // padding: 10px;
+    // margin: 20px;
+    
+    width: 100%;
+
+
+    &-a{
+      // border: solid 3pt red;
+      background-color: white;
+      padding: 5px;
+      border: solid 4pt rgb(210, 210, 210);
+      
+
+      &.task{
+        text-align: left;
+      }
+      
+      // i{
+      //     &:hover{
+      //       cursor: hand;
+      //     }
+      // }
+      
+
+      
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+    .add-item{
+      // display: block;
+      text-align: justify;
+    }
+  }
+}
