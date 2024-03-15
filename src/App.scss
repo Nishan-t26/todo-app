@@ -1,94 +1,78 @@
-html,body,#root{
-  background-color: white;
-}
-.container{
-  background-color: rgb(255, 255, 255);
-  // margin-top: 20px;
-  padding: 30px 30px 30px 30px;
-
-  &-navbar{
-    text-align: center;
-    font-size: 2rem;
-    padding: 2rem;
-    
+.main{
+  .row{
+  margin: 0 !important;
   }
 
-  &-topbar{
-    text-align: justify;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    
-    
-    
 
-    &-row{
+  @media only screen and (max-width: 480px) {
+    .btn{
+      // width: 100%;
+    }
+    .del{
+      text-align: center !important;
+    }
+    .edit{
+      text-align: right;
+      padding: 0px !important;
+    }
+  }
+
+
+  .title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+  .navbar{
+    
+    padding: 20px 0px;
+
+    .search{
+      
+    }
+    
+    &-but{
+      
+      text-align: right;
+      
+      .btn{
+        // width: 60%;
+
+      }
+    }
+  }
+  .list{
+    // border: solid 2pt green;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+    .tick{
+      // border: solid 2pt blue;
+      text-align: center;
       padding: 0px;
       margin: 0px;
-      border: solid 4pt rgb(210, 210, 210);
-      align-items: center;
-      // margin-right: 0px;
-      
-
-
-      .add-item{
-        // text-align: left;
-        padding: 0px;
-        // cursor: hand;
-        // padding-left: 2rem;
-        
-      }
-
-      // .col{
-      //   color: rgb(210, 210, 210);
-      // }
-
-      .dropdown{
-        // border: solid 2pt red;
-        // width: fit-content;
-        padding: 0px;
-        // padding-right: 2rem;
-        text-align: right;
-        
-        
+      // cursor: pointer;
+      .form-check-input{
+        cursor: pointer;
       }
     }
-  }
-
-  &-list{
-    background-color: rgb(210, 210, 210);
-    // padding: 10px;
-    // margin: 20px;
-    
-    width: 100%;
-
-
-    &-a{
-      // border: solid 3pt red;
-      background-color: white;
-      padding: 5px;
-      border: solid 4pt rgb(210, 210, 210);
-      
-
-      &.task{
-        text-align: left;
-      }
-      
-      // i{
-      //     &:hover{
-      //       cursor: hand;
-      //     }
-      // }
-      
-
-      
+    .data{
+      // border: solid 2pt yellow;
     }
-  }
-
-  @media only screen and (max-width: 480px){
-    .add-item{
-      // display: block;
-      text-align: justify;
+    .del{
+      // border: solid 2pt red; 
+      text-align: left;
+      // cursor: pointer;
+      .bi{
+        cursor: pointer;
+      }
+    }
+    .edit{
+      // border: solid 2pt black;
+      text-align: left;
+      // cursor: pointer;
+      .bi{
+        cursor: pointer;
+      }
     }
   }
 }
