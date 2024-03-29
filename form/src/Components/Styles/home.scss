@@ -1,0 +1,63 @@
+
+.home{
+  padding: 0px 0px;
+  margin: 0px 0px;
+  .navbar{
+    justify-content: end;
+    
+  }
+  .container{
+    // border-radius: 20px;
+    // justify-items: center;
+    // justify-items: center;
+
+
+    // .taasks{
+    //   padding: 20px;
+    // }
+    padding: 0;
+    .title{
+      font-size: 3rem;
+      font-weight: 700;
+      text-align: center;
+      .image{
+        width: 20%;
+        padding:0px 20px
+      }      
+    }
+    .topbar{
+      padding: 20px;
+      .search{
+        padding: 0 !important;
+        margin: auto;
+      }
+      // border: solid 3pt blue;
+      
+      &-but{
+        text-align: right;
+        padding: 0px;
+      }
+
+    }
+    .tasklist{
+      padding: 20px 20px;
+      background-color: rgb(213, 209, 209);
+      border-radius: 20px;
+
+    }
+    .list{
+      // background-color: rgb(213, 209, 209);
+      padding: 10px 0;
+      // border-radius: 20px;
+      // border: solid 3pt red;
+      .row{
+        padding: 10px 10px;
+        background-color: white;
+        border-radius: 20px;
+      }
+      .edit{
+        padding: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.Signup{
+    // text-align: center;
+    
+    padding: 20px;
+    .col-md-6{
+        text-align: center;
+        background-color: rgb(218, 205, 205);
+        padding: 20px;
+        // border: solid 2pt rgb(111, 0, 255);
+        border-radius: 20px;
+
+        .logo{
+            // border: solid 2pt red;
+            width: 30%;
+            // text-align: center;
+            margin: 0 auto;
+        }
+        
+    }
+    &-email{
+        padding: 20px 0 10px 0;
+    }
+    &-passwd{
+        padding: 10px;
+    }
+    .submit{
+        padding: 10px;
+    }
+    
+}
